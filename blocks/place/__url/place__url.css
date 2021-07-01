@@ -1,0 +1,40 @@
+.place__url {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  bottom:5px;
+  position: absolute;
+}
+
+.place__url:hover {
+  opacity: .3;
+}
+
+@media screen and (max-width:768px) and (min-width:425px) {
+  .place__url {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    bottom:1px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+  .place__url {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    bottom:6px;
+    position: absolute;
+  }
+}
