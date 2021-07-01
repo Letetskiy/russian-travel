@@ -23,7 +23,6 @@
     position: absolute;
     top:50%;
     transform: translate(0, -50%);
-    text-align: center;
     left:20%;
   }
 }
@@ -71,7 +70,6 @@
     position: absolute;
     top:50%;
     transform: translate(0, -50%);
-    text-align: center;
     left:20%;
   }
 }
