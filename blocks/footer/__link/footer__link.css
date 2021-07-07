@@ -1,19 +1,18 @@
 .footer__link {
-  color: #fff;
+  color: white;
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
   font-size: 16px;
-  line-height: 1.12;
-  display: block;
+  line-height: 18px;
+  transition: 1s;
 }
-
 .footer__link:hover {
   opacity: 0.8;
 }
-
-@media screen and (max-width: 580px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer__link {
-      font-size: 24px;
-      line-height: 1;
-      margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
   }
 }
